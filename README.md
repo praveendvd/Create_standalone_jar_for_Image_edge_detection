@@ -1,20 +1,24 @@
-# SeleniumJava-Draw_canvas
-
-A poc to draw complex images on a html canvas
-
+# Create standalone Jar
 
 #This project uses :
 
 http://openimaj.org/
 
-for image processing and edge detection
+#Run
 
-#Just clone the project and do update project
-
-#THen run maven test
+mvn install
 
 
-Currently tested only with PNG , should work with any file
+#Output
+
+standalone jar will be created at target folder
 
 
+#running jar:
+
+java -jar Selenium_basic-0.0.1-SNAPSHOT-shaded.jar poppey.png
+
+#Output 
+
+Out will be created at current directory as 2.png
 
